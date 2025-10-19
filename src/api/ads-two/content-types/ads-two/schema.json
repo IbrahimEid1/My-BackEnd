@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ads_twos",
+  "info": {
+    "singularName": "ads-two",
+    "pluralName": "ads-twos",
+    "displayName": "AdsTwo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
